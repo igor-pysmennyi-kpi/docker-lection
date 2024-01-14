@@ -3,7 +3,7 @@
 docker build -t ihor-p/docker-lection:0.0.1 . 
 docker images
 docker run -p 8080:5000 ihor-p/docker-lection:0.0.1
-detached: 
+# detached mode
 docker run -p 8080:5000 -d ihor-p/docker-lection:0.0.1
 ``````
 Список контейнерів (```-a```) для стопнутих)

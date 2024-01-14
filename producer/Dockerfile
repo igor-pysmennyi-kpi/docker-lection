@@ -19,4 +19,4 @@ EXPOSE 5000
 # Run app.py when the container launches
 # https://spacelift.io/blog/docker-entrypoint-vs-cmd
 ENTRYPOINT [ "python" ] 
-CMD ["run.py"]
+CMD ["-u", "run.py"]
